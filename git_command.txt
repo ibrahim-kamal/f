@@ -1,0 +1,19 @@
+# status
+git status
+
+
+# to see new update of folder/file
+git diff / git diff file_name 
+
+# git diff -r HEAD file_name
+
+# write 
+echo -e "Lovelace\nHopper\nJohnson\nWilson" > names.txt
+
+#commit details  (commit | date | author )
+git log (file name )
+
+# git add data/northern.csv
+# git commit --amend -m "Added more northern data."
+# git push origin master
+#git pull --no-edit origin master
